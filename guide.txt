@@ -1,0 +1,9 @@
+# Developer Guide
+
+1 - Install Python 2.7 & Python-Devel
+2 - Install Pip
+3 - Install Virtual Enviroments "pip install virtualenv"
+4 - Create enviroment on proyect folder "virtualenv <env>"
+5 - Activate <env> "source <env>/bin/activate"
+6 - Run the command "pip install -r requeriments.txt"
+7 - Exit <env> "deactivate"
