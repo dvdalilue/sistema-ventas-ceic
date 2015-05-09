@@ -1,0 +1,105 @@
+/sistemacaja/ventas
+
+El boton de ayuda, muestra supuestas páginas de ayuda que están en
+blanco (no se si es porque me falta algo en la BD)
+
+no permite hacer donación o recarga si no hay productos en la lista de 
+compras
+
+Con ese mismo usuario, al intentar recargar dice: que el usuario por 
+defecto no puede recargar saldo
+
+en la parte de cliente dice, cédula o nombre, si buscas por cédula 
+no funciona
+
+
+/sistemacaja/caja 
+
+si la caja está abierta, puedes volver a abrila y quedan registradas
+2 aperturas de cajas en movimientos.
+
+si pongo la fecha inicial, mayor a la final, lo permite.
+
+sería bueno que para seleccionar la fecha estuviera un widget.
+
+
+
+/sistemacaja/movimientos
+
+cuando abres caja el "tipo" es ingreso, no debería ser apertura de
+caja? 
+
+si abro la caja y enseguida la cierro (sin realizar ninguna venta,
+queda un ajuste negativo. (no netiendo eso hahah)
+
+la X de operación que me imagino que es para eliminar el movimiento
+no funciona. Me imagino que para poder hacerlo debes introducir
+una clave o algo?
+
+los movimientos por recarga no aparecen registrados cundo seleccionas el
+radio button
+cuando lo haces con el producto recarga, dice que el valor es 0.
+las donaciones no aparecen en ningún sitio
+
+
+/sistemacaja/inventario
+
+El botón X de operación no funciona.
+
+no especifica cuales son los campos obligatorios al momento de introducir
+una nueva compra al inventario.
+Si me falta uno, dice que los datos introducidos no son válidos.
+
+si intento agregar un producto con un nombre que ya existe, explota por 
+duplicado de claves.
+
+debería haber una opción de buscar producto.
+
+si estoy en una de las opciones del menú izquierdo, no tengo manera de 
+volver a ver la lista entera de productos, a menos que le de nuevamente
+al botón inventario.
+
+El botón listado de productos  te permite descargar un pdf, pero no se
+que es lo que tiene (?)
+
+/sistemacaja/inventario/compra
+
+el "Opcional"en el costo de la compra no se ve bien haha
+el botón de agregar está descuadrado.
+En la tabla de abajo, deberia salir un nombre que identifique o te diga
+a qué se refiere la tabla.
+
+Si escribo una cantidad a agregar 0 o negativa, lo acepta
+
+Si escribo un costo de la compra negativa, lo acepta
+
+
+/sistemacaja/inventario/modificar
+Cuando selecciono un producto no muestra el precio actual
+Puedo introducir un nuevo precio negativo
+
+sería bueno que mostrara una lista de los últimos cambios de precios que 
+se han hecho, igual que ocmo se hace en añadir compra en el inventario.
+
+
+/sistemacaja/usuarios
+
+el botón X de operaciones no funciona
+Deberia existir la opcion de buscar un usuario
+
+si agrego un usuario con el mismo numero de carnet, explota por
+ duplicado de clave única.
+
+si se introduce un número de carnet más largo, explota. si es más corto
+o no tiene el guión lo acepta
+
+Si introduzco una persona con la misma cédula lo que hace es 
+modificarla. (Es confuso)
+
+si agrego un usuario completamente nuevo, parece que no lo muestra, pero
+si lo crea, porque no me deja volver a crear un usuario con el mismo
+cartnet
+
+al buscarlo en /sistemacaja/vender si aparece el usuario creado
+
+sería bueno que estuviera la opción de poder ordenarlos por campo
